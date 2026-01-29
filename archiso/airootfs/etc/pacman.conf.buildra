@@ -96,13 +96,17 @@ Include = /etc/pacman.d/mirrorlist
 
 # An example of a custom package repository.  See the pacman manpage for
 # tips on creating your own repositories.
-#[custom]
-#SigLevel = Optional TrustAll
-#Server = file:///home/custompkgs
 
-#[buildra_repo]
+# If you want the local personal_repo you need to make it available (remove hashtags)
+# and you need to change the path to the packages - line 3
+
+#[personal_repo]
 #SigLevel = Never
-#Server = https://buildra.github.io/$repo/$arch
+#Server = file:///home/erik/Desktop/iso/archiso/personal_repo/x86_64/                
+
+[buildra_repo]
+SigLevel = Never
+Server = https://buildra.github.io/$repo/$arch
 
 [nemesis_repo]
 SigLevel = Never

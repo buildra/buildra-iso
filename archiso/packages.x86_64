@@ -1,8 +1,3 @@
-#####################################################################
-##                            PACKAGES AVAILABLE
-#####################################################################
-
-###archiso
 alsa-utils
 amd-ucode
 arch-install-scripts
@@ -56,22 +51,8 @@ libfido2
 libusb-compat
 linux
 linux-atm
-linux-firmware-amdgpu
-linux-firmware-atheros
-linux-firmware-broadcom
-linux-firmware-intel
-linux-firmware-liquidio
+linux-firmware
 linux-firmware-marvell
-linux-firmware-mediatek
-linux-firmware-mellanox
-linux-firmware-nfp
-linux-firmware-nvidia
-linux-firmware-other
-linux-firmware-qcom
-linux-firmware-qlogic
-linux-firmware-radeon
-linux-firmware-realtek
-linux-firmware-whence
 #livecd-sounds
 lsscsi
 lvm2
@@ -85,6 +66,7 @@ memtest86+-efi
 mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
+#mmc-utils
 modemmanager
 mtools
 nano
@@ -111,7 +93,6 @@ pv
 qemu-guest-agent
 refind
 reflector
-#rp-pppoe
 rsync
 #rxvt-unicode-terminfo
 screen
@@ -141,6 +122,7 @@ wireless-regdb
 wireless_tools
 wpa_supplicant
 wvdial
+xdg-utils
 xfsprogs
 xl2tpd
 
@@ -178,7 +160,7 @@ xf86-input-libinput
 mesa
 
 ###hardware video support
-nvidia-dkms
+nvidia-open-dkms
 nvidia-utils
 nvidia-settings
 #mesa-utils
@@ -273,13 +255,13 @@ imagemagick
 inkscape
 lshw
 meld
-nitrogen
 numlockx
 qbittorrent
 scrot
 simplescreenrecorder-qt6-git
 variety
 vlc
+vlc-plugins-all
 
 lm_sensors
 
@@ -318,6 +300,7 @@ gnome-screenshot
 gparted
 gpick
 hardinfo2
+hwinfo
 libmtp
 laptop-detect
 lsb-release
@@ -341,6 +324,7 @@ unzip
 xapp
 xdg-desktop-portal-gtk
 yt-dlp
+zenity
 zsh
 zsh-completions
 zsh-syntax-highlighting
@@ -369,19 +353,22 @@ mkinitcpio-openswap
 alacritty
 appstream
 appstream-qt5
+archlinux-tools
 downgrade
+fastfetch-git
 font-manager
-gitahead
+gittyup
 hardcode-fixer-git
 inxi
 mintstick
-neofetch-git
 paru-git
 python-pyparted
 python-pywal
 rate-mirrors
 sublime-text-4
 the_silver_searcher
+unifetch
+visual-studio-code-bin
 wttr
 yad
 yay-git
@@ -417,7 +404,9 @@ sddm-git
 ####                       APPS
 ###########################################################################
 
+brave-bin
 btop
+devtools
 fd
 fish
 inetutils
@@ -425,7 +414,11 @@ menulibre
 mkinitcpio-firmware
 most
 mugshot
+namcap
 noto-fonts-emoji
+pacmanlogviewer
+pacquery
+python-pylint
 ripgrep
 ripgrep-all
 sparklines-git
@@ -444,6 +437,8 @@ yad
 
 #flat-remix
 #colloid-cursors-git
+beautyline
+candy-icons-git
 chaotic-keyring
 chaotic-mirrorlist
 
@@ -451,49 +446,49 @@ chaotic-mirrorlist
 ####                               NEMESIS REPO
 ###########################################################################
 
-arc-gtk-theme
-archlinux-logout-git
-archlinux-tweak-tool-git
 #ckb-next-git
-#edu-arc-dawn-git
-edu-arc-kde
 #edu-awesome-git
 #edu-bspwm-git
 #edu-chadwm-git
-edu-dot-files-git
-edu-hblock-git
 #edu-i3-git
 #edu-leftwm-git
-#edu-neo-candy-arc-git
-#edu-neo-candy-arc-mint-grey-git
-#edu-neo-candy-arc-mint-red-git
-#edu-neo-candy-qogir-git
-#edu-neo-candy-tela-git
 #edu-papirus-dark-tela-git
 #edu-papirus-dark-tela-grey-git
 #edu-plasma-keybindings-git
 #edu-plasma-servicemenus-git
-edu-polybar-git
 #edu-qtile-git
+#edu-surfn-numixs-blue-git
+#edu-vimix-dark-tela-git
+arc-gtk-theme
+archlinux-logout-git
+archlinux-tweak-tool-git
+edu-arc-dawn-git
+edu-arc-kde
+edu-dot-files-git
+edu-hblock-git
+edu-neo-candy-arc-git
+edu-neo-candy-arc-mint-grey-git
+edu-neo-candy-arc-mint-red-git
+edu-neo-candy-qogir-git
+edu-neo-candy-tela-git
+edu-polybar-git
 edu-rofi-git
 edu-rofi-themes-git
 edu-sddm-simplicity-git
 edu-shells-git
-#edu-surfn-numixs-blue-git
 edu-variety-config-git
-#edu-vimix-dark-tela-git
 #edu-xfce-git
 flameshot-git
-gitahead-git
 hardcode-fixer-git
 lastpass
 neo-candy-icons-git
 pacman-hook-kernel-install
 pamac-aur
 sparklines-git
+speedtest-cli
 ttf-material-design-iconic-font
 wttr
-
+xcolor
 
 ###########################################################################
 ####                               NEMESIS REPO CHADWM
@@ -517,6 +512,9 @@ picom-git
 #ttf-meslo-nerd-font-powerlevel10k
 #volumeicon
 #xorg-xsetroot
+
+ananicy-cpp
+cachyos-ananicy-rules-git
 
 ###########################################################################
 ####                           PERSONAL_REPO aka LOCAL REPO
