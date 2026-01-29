@@ -119,7 +119,7 @@ echo
 
 	desktop="plasma"
 
-	buildraVersion='v25.06.22.01'
+	buildraVersion='v26.01.29.01'
 
 	isoLabel='buildra-'$buildraVersion'-x86_64.iso'
 
