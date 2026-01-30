@@ -159,12 +159,6 @@ xf86-input-libinput
 #xf86-video-vmware
 mesa
 
-###hardware video support
-nvidia-open-dkms
-nvidia-utils
-nvidia-settings
-#mesa-utils
-
 ###base-devel
 base-devel
 
@@ -556,3 +550,8 @@ yakuake
 
 edu-plasma-keybindings-git
 edu-plasma-servicemenus-git
+
+###hardware video support
+nvidia-open-dkms
+nvidia-utils
+nvidia-settings

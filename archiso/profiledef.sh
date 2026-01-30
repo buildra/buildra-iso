@@ -2,10 +2,10 @@
 # shellcheck disable=SC2034
 
 iso_name="buildra"
-iso_label="buildra-v26.01.29.01"
+iso_label="buildra-v26.01.30.01"
 iso_publisher="buildra"
 iso_application="buildra Live/Rescue CD"
-iso_version="v26.01.29.01"
+iso_version="v26.01.30.01"
 install_dir="arch"
 buildmodes=('iso')
 bootmodes=('bios.syslinux'
