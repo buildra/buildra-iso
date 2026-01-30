@@ -303,7 +303,7 @@ echo
 
 	# Nvidia driver selection
 	# open | 580xx
-	nvidia_driver="580xx"
+	nvidia_driver="open"
 
 	##############################################
 	# Nvidia driver selection
